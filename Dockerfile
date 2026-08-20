@@ -6,4 +6,4 @@ RUN --mount=type=cache,target=/tmp/shared-cache \
     echo "cross tenant proof from another acc$(date +%s)" > /tmp/shared-cache/marker.txt && \
     cat /tmp/shared-cache/marker.txt
 
-cmd echo "build ok"
+CMD echo "build ok"
